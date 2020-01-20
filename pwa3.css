@@ -3,7 +3,7 @@
 *{
 	margin:0;
 	padding:0;
-	font-family:'Poppins',sans-serif;
+	font-family:'Roboto',sans-serif;
 }
 
  .container{
@@ -19,7 +19,7 @@
  	right:0;
  	width: 350px;
  	height:100%;
- 	background: radial-gradient(circle at 32% 12%, rgba(229, 229, 229,0.05) 0%, rgba(229, 229, 229,0.05) 50%,rgba(101, 101, 101,0.05) 50%, rgba(101, 101, 101,0.05) 100%),radial-gradient(circle at 49% 59%, rgba(113, 113, 113,0.05) 0%, rgba(113, 113, 113,0.05) 50%,rgba(240, 240, 240,0.05) 50%, rgba(240, 240, 240,0.05) 100%),radial-gradient(circle at 16% 86%, rgba(118, 118, 118,0.05) 0%, rgba(118, 118, 118,0.05) 50%,rgba(207, 207, 207,0.05) 50%, rgba(207, 207, 207,0.05) 100%),linear-gradient(252deg, rgb(34, 85, 150),rgb(117, 220, 202));
+ 	background: radial-gradient(circle at 90% 66%, rgba(25, 25, 25,0.06) 0%, rgba(25, 25, 25,0.06) 25%,rgba(23, 23, 23,0.06) 25%, rgba(23, 23, 23,0.06) 50%,rgba(20, 20, 20,0.06) 50%, rgba(20, 20, 20,0.06) 75%,rgba(18, 18, 18,0.06) 75%, rgba(18, 18, 18,0.06) 100%),radial-gradient(circle at 62% 23%, rgba(154, 154, 154,0.06) 0%, rgba(154, 154, 154,0.06) 25%,rgba(111, 111, 111,0.06) 25%, rgba(111, 111, 111,0.06) 50%,rgba(68, 68, 68,0.06) 50%, rgba(68, 68, 68,0.06) 75%,rgba(25, 25, 25,0.06) 75%, rgba(25, 25, 25,0.06) 100%),radial-gradient(circle at 47% 85%, rgba(97, 97, 97,0.06) 0%, rgba(97, 97, 97,0.06) 25%,rgba(130, 130, 130,0.06) 25%, rgba(130, 130, 130,0.06) 50%,rgba(162, 162, 162,0.06) 50%, rgba(162, 162, 162,0.06) 75%,rgba(195, 195, 195,0.06) 75%, rgba(195, 195, 195,0.06) 100%),radial-gradient(circle at 72% 0%, rgba(214, 214, 214,0.06) 0%, rgba(214, 214, 214,0.06) 25%,rgba(223, 223, 223,0.06) 25%, rgba(223, 223, 223,0.06) 50%,rgba(231, 231, 231,0.06) 50%, rgba(231, 231, 231,0.06) 75%,rgba(240, 240, 240,0.06) 75%, rgba(240, 240, 240,0.06) 100%),linear-gradient(90deg, rgb(181, 12, 26),rgb(206, 132, 31));
  	z-index: -2;
  }
 
@@ -87,7 +87,7 @@ header ul li a:before{
 	left:0;
 	width:0%;
 	height:100%;
-	background:#137E69;
+	background:#b71b15;
 	opacity: 100%;
 	z-index: -1;
 	transition: 0.5s ease-in-out;
@@ -274,7 +274,7 @@ header ul li a.active:before{
 }
 
 .dropbtn {
-	background-color: #137E69;
+	background-color: #b71b15;
 	color: white;
 	padding: 10px;
 	font-size: 16px;
@@ -364,7 +364,7 @@ header ul li a.active:before{
 
 	
 .dropbtn {
-	background-color: #137E69;
+	background-color: #b71b15;
 	color: white;
 	padding: 16px;
 	font-size: 16px;
@@ -397,14 +397,14 @@ header ul li a.active:before{
 	display: block;
   }
   
-  .dropdown-content a:hover {background-color:#137E69}
+  .dropdown-content a:hover {background-color:#b71b15}
   
   .dropdown:hover .dropdown-content {
 	display: block;
   }
   
   .dropdown:hover .dropbtn {
-	background-color: #137E69;
+	background-color: #b71b15;
   }
   
 	.menuIcon{
