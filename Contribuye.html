@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta  charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MUPA-app-2020</title>
+	<link rel="stylesheet" type="text/css" href="pwa3.css">
+	<link rel="manifest" href="/manifest.json">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<a href="https://www.mupa.gob.pa" class="logo"> <img src="miniLogo02.png"></a>
+			<ul>
+				<li><a href="index.html" class="">NOTICIAS</a></li>
+				<li><a href="Participa.html" class="">PARTICIPA</a></li>
+				<li><a href="Informate.html" class="">INFORMATE</a></li>
+				<li><a href="Contribuye.html" class="">CONTRIBUYE</a></li>
+				<li><a href="FAQ.html" class=""> FAQ </a></li>
+			</ul>
+			<span>
+			<div class="dropdown">
+				<button class="dropbtn">MENU</button>
+				<div class="dropdown-content">
+				<a href="index.html">NOTICIAS</a>
+				<a href="Participa.html">PARTICIPA</a>
+				<a href="Informate.html">INFORMATE</a>
+				<a href="Contribuye.html">CONTRIBUYE</a>
+				<a href="FAQ.html">PREGUNTAS FRECUENTES</a>
+				</div>
+			  </div>
+			</span>
+		</header>	
+	
+	<div class="content">
+		<div class="bannerText" id="slideshowText">
+			<div class=""><hr>
+				<h2>CONTRIBUYE 1</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur aperiam nostrum at amet impedit neque, voluptate dicta sunt. Placeat aspernatur maxime culpa aut pariatur eum, nostrum dolorum atque iusto tenetur!
+				</p>
+				<a href="https://www.google.com">leer más..</a><br>
+			</div>
+			<div class=""><hr>
+				<h2>CONTRIBUYE 2</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur aperiam nostrum at amet impedit neque, voluptate dicta sunt. Placeat aspernatur maxime culpa aut pariatur eum, nostrum dolorum atque iusto tenetur!
+				</p>
+				<a href="https://www.google.com">leer más..</a><br>
+			</div><br><hr>
+			<div class="active"><hr>
+				<h2>CONTRIBUYE 3</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur aperiam nostrum at amet impedit neque, voluptate dicta sunt. Placeat aspernatur maxime culpa aut pariatur eum, nostrum dolorum atque iusto tenetur!
+				</p>
+				<a href="https://www.google.com">leer más..</a><br>
+			</div><br><hr>
+		</div>
+		<div class="bannerImg" id="slideshow">
+			<img src="noti1.png" class="active">
+			<img src="noti2.png" class="">
+			<img src="noti3.png" class="">
+			<img src="noti4.png" class="">
+			<img src="noti5.png" class="">
+		</div>
+	</div>
+	<div class="icons">
+		<ul class="sci">
+			<li><a href="https://www.facebook.com"> <img src="facebook.png"></a></li>
+			<li><a href="https://www.instagram.com"> <img src="insta.png"></a></li>
+			<li><a href="https://www.twitter.com"> <img src="twitter.png"></a></li>
+		</ul> 
+		<ul class="controls">
+			<li><a><img src="leftArrow.png" onclick="prevSlide(); prevSlideText();"></a></li>
+			<li><a><img src="rightArrow.png" onclick="nextSlide(); nextSlideText();"></a></li>	
+		</ul>	
+	</div>
+	</div>
+	<script type="text/javascript">
+	</script>
+	<script src="pwa.js"></script>
+</body>
+</html>

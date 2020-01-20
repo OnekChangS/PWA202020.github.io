@@ -1,0 +1,48 @@
+{
+	"name": "MUPA App 2020",
+	"short_name": "MupaApp",
+	"start_url":"pwa3.html",
+	"display": "standalone",
+	"background_color": "#FFE9D2",
+	"theme_color": "#FFE1C4",
+	"orientation":"portrait-primary",
+	"icons": [
+		{
+		"src": "/img/icons/24k.png",
+		"type": "image/png",
+		"sizes": "24x24"
+		},
+
+		{
+		"src": "/img/icons/4k.png",
+		"type": "image/png",
+		"sizes": "4x4"
+		},
+
+		{
+		"src": "/img/icons/8k.png",
+		"type": "image/png",
+		"sizes": "8x8"
+		},
+
+		{
+		"src": "/img/icons/13k.png",
+		"type": "image/png",
+		"sizes": "13x13"
+		},
+
+		{
+		"src": "/img/icons/41k.png",
+		"type": "image/png",
+		"sizes": "41x41"
+		},
+
+		{
+		"src": "/img/icons/144.png",
+		"type": "image/png",
+		"sizes": "144x144"
+		}
+
+	]
+
+}
